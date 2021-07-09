@@ -6,35 +6,35 @@
 </head>
 <body>
 <form>
-<table>
-    <tr>
-        <th><strong>Amount</strong></th>
-        <th><strong>From Currency</strong></th>
-        <th><strong>To Currency</strong></th>
+    <table>
+        <tr>
+            <th><strong>Amount</strong></th>
+            <th><strong>From Currency</strong></th>
+            <th><strong>To Currency</strong></th>
 
-    </tr>
-    <tr>
-       <td><input type="text" placeholder="nhap" id="tien"></td>
-        <td>
-            <select id="from">
-                <option value="VND">VND</option>
-                <option value="USD">USD</option>
-            </select>
-        </td>
-        <td>
-            <select id="to">
-                <option value="USD">USD</option>
-                <option value="VND">VND</option>
-            </select>
-        </td>
-        <td>
-         <button type="button" value="convert" onclick="hienthi()">Convert</button>
-        </td>
-    </tr>
-</table>
-<div>
-    <h3 id="result"> result</h3>
-</div>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="nhap" id="tien"></td>
+            <td>
+                <select id="from">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select id="to">
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
+                </select>
+            </td>
+            <td>
+                <button type="button" value="convert" onclick="hienthi()">Convert</button>
+            </td>
+        </tr>
+    </table>
+    <div>
+        <h3 id="result"> result : </h3>
+    </div>
 </form>
 <script>
     function hienthi() {
